@@ -11,7 +11,7 @@ jobs:
       - name: Build
         id: build_step
         run: |
-          ./build
+          # ./build
           echo "build_id=$BUILD_ID" >> $GITHUB_OUTPUT
   deploy:
     needs: build
